@@ -1,0 +1,269 @@
+body {
+  background-color: white;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: azure;
+}
+
+.header {
+  background-color: seagreen;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+.logo {
+  width: 110px;
+  margin-right: 60px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 36px;
+}
+
+.tagline {
+  font-style: italic;
+  margin: 8px 0 0;
+}
+
+.nav {
+  background-color: honeydew;
+  padding: 10px 20px;
+}
+
+.nav a {
+  display: inline-block;
+  color: darkslategray;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.nav a.active {
+  background-color: seagreen;
+  color: white;
+}
+
+.content {
+  padding: 20px 25px;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.welcome-text { flex: 1; }
+
+.welcome-text h2 {
+  color: darkslategray;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+.welcome-img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: darkslategray;
+  font-family: Georgia, serif;
+  border-bottom: 2px solid lightseagreen;
+  padding-bottom: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card h4 {
+  color: seagreen;
+  margin: 12px 0 6px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.bottom {
+  display: flex;
+  gap: 30px;
+}
+
+.details { flex: 2; }
+.tips { flex: 1; }
+
+.details .section-title,
+.tips .section-title {
+  border-bottom: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th {
+  background-color: seagreen;
+  color: white;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid lightseagreen;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.tips-box {
+  background-color: honeydew;
+  border: 1px solid lightseagreen;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.page-title {
+  color: darkslategray;
+  font-family: Georgia, serif;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.trip-form {
+  background-color: honeydew;
+  border: 1px solid lightseagreen;
+  border-radius: 10px;
+  padding: 15px 25px 25px;
+  margin-top: 15px;
+}
+
+.form-title {
+  color: seagreen;
+  font-family: Georgia, serif;
+  border-bottom: 2px solid lightseagreen;
+  padding-bottom: 6px;
+  margin-top: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.row label:first-child {
+  width: 220px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.row input[type="text"],
+.row input[type="email"],
+.row input[type="tel"],
+.row input[type="date"],
+.row input[type="number"],
+.row select {
+  width: 300px;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.star { color: red; }
+
+.hint {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.choices { display: flex; gap: 40px; }
+
+.choices.two-col {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 10px 40px;
+}
+
+.choice {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.small {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-family: Verdana, sans-serif;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.submit {
+  background-color: seagreen;
+  color: white;
+}
+
+.reset {
+  background-color: gainsboro;
+  color: darkslategray;
+}

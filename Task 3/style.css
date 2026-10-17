@@ -1,0 +1,160 @@
+body {
+  background-color: white;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: azure;
+}
+
+.header {
+  background-color: seagreen;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 60px;
+}
+
+.logo {
+  width: 110px;
+  margin-right: 60px;
+}
+
+.header h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 36px;
+}
+
+.tagline {
+  font-style: italic;
+  margin: 8px 0 0;
+}
+
+.nav {
+  background-color: honeydew;
+  padding: 10px 20px;
+}
+
+.nav a {
+  display: inline-block;
+  color: darkslategray;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.nav a.active {
+  background-color: seagreen;
+  color: white;
+}
+
+.content {
+  padding: 20px 25px;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.welcome-text { flex: 1; }
+
+.welcome-text h2 {
+  color: darkslategray;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+.welcome-img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.section-title {
+  color: darkslategray;
+  font-family: Georgia, serif;
+  border-bottom: 2px solid lightseagreen;
+  padding-bottom: 8px;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card h4 {
+  color: seagreen;
+  margin: 12px 0 6px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.bottom {
+  display: flex;
+  gap: 30px;
+}
+
+.details { flex: 2; }
+.tips { flex: 1; }
+
+.details .section-title,
+.tips .section-title {
+  border-bottom: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th {
+  background-color: seagreen;
+  color: white;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid lightseagreen;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.tips-box {
+  background-color: honeydew;
+  border: 1px solid lightseagreen;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plan Your Trip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <div class="header">
+      <img class="logo" src="images.png" alt="Mountain logo">
+      <div class="title-box">
+        <h1>Explore Pakistan</h1>
+        <p class="tagline">Beautiful Places • Rich Culture • Unforgettable Experiences</p>
+      </div>
+    </div>
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="plan.html">Plan Your Trip</a>
+    </div>
+
+    <div class="content">
+
+      <h2 class="page-title">Plan Your Trip</h2>
+      <p>Fill in the form below to plan your dream trip to Pakistan. Make sure to provide all the required details so we can suggest the best options for you.</p>
+      <p><a href="index.html">← Back to Home</a></p>
+
+      <form class="trip-form" action="#" method="post">
+
+        <h3 class="form-title">Personal Information</h3>
+        <div class="row">
+          <label for="name">Full Name <span class="star">*</span></label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="row">
+          <label for="email">Email Address <span class="star">*</span></label>
+          <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+        </div>
+        <div class="row">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="03XX-XXXXXXX">
+        </div>
+
+        <h3 class="form-title">Trip Details</h3>
+        <div class="row">
+          <label for="destination">Destination <span class="star">*</span></label>
+          <select id="destination" name="destination" required>
+            <option value="">Select a destination</option>
+            <option>Hunza Valley</option>
+            <option>Skardu</option>
+            <option>Murree</option>
+            <option>Swat Valley</option>
+          </select>
+        </div>
+        <div class="row">
+          <label for="date">Departure Date <span class="star">*</span></label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="row">
+          <label for="travellers">Number of Travellers</label>
+          <input type="number" id="travellers" name="travellers" value="1" min="1" max="10">
+          <span class="hint">(1 – 10)</span>
+        </div>
+
+        <h3 class="form-title">Travel Preferences</h3>
+        <div class="row">
+          <label>Travel Type <span class="star">*</span></label>
+          <div class="choices">
+            <label class="choice"><input type="radio" name="type" value="Solo" checked> Solo</label>
+            <label class="choice"><input type="radio" name="type" value="Family"> Family</label>
+            <label class="choice"><input type="radio" name="type" value="Friends"> Friends</label>
+          </div>
+        </div>
+        <p class="small">Interests (you can select more than one)</p>
+        <div class="row">
+          <label></label>
+          <div class="choices two-col">
+            <label class="choice"><input type="checkbox" name="interest" value="Sightseeing"> Sightseeing</label>
+            <label class="choice"><input type="checkbox" name="interest" value="Photography"> Photography</label>
+            <label class="choice"><input type="checkbox" name="interest" value="Hiking"> Hiking</label>
+            <label class="choice"><input type="checkbox" name="interest" value="Shopping"> Shopping</label>
+          </div>
+        </div>
+
+        <h3 class="form-title">Special Requests</h3>
+        <p class="small">Tell us if you have any special requests</p>
+        <textarea name="requests" rows="3" placeholder="e.g. room preference, dietary needs, etc."></textarea>
+
+        <div class="buttons">
+          <button type="submit" class="submit">Submit</button>
+          <button type="reset" class="reset">Reset</button>
+        </div>
+
+      </form>
+
+    </div>
+
+    <div class="footer">
+      Made by Ayesha Khan &nbsp;|&nbsp; Roll No: 12345
+    </div>
+
+  </div>
+</body>
+</html>
